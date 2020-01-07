@@ -12,9 +12,9 @@ import { getDepartures } from "./departures"
  */
 export const getNydalenDepartures = async () => {
   const nydalen = {
-    name: "Nydalen",
+    name: "Bislett",
     featureArray: [
-      "NSR:StopPlace:59605"
+      "NSR:StopPlace:3A58353"
     ]
   }
   const departures = await getDepartures(nydalen.featureArray[0], 20)
